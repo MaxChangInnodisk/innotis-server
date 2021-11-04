@@ -41,20 +41,14 @@ InnoTIS 是 Innodisk and Aetina 用來提供 Aetina Server 運行AI模型的效�
 
     Github: [innotis-client](https://github.com/MaxChangInnodisk/innotis-client)
 
-   * Pull & Run Container from Docker Hub
+   * DockerHub: pull image & run container from docker hub
        ```bash
        $ docker run -t -p 5000:5000 -t maxchanginnodisk/innotis
        ```
-   * You Can Also Build from Docker File ( Developer )
-        ```bash
-        $ git clone https://github.com/MaxChangInnodisk/innotis-client.git && cd innotis-client/docker
-        # Build Docker Image
-        $ ./build.sh
-        # Check Images ( innotis:latest )
-        $ docker images
-        # Run
-        $ ./run.sh
-        ```
+   * Dockerfile: you can also build from docker file
+     * Please visit [innotis-client](https://github.com/MaxChangInnodisk/innotis-client) to get more information.
+   * Miniconda: virtual environment might be a great idea for developer
+     * Please visit [innotis-client](https://github.com/MaxChangInnodisk/innotis-client) to get more information.
 
 3. **開啟瀏覽器 輸入 localhost:5000**
 
