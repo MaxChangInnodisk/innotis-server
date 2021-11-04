@@ -53,7 +53,9 @@ InnoTIS 是 Innodisk and Aetina 用來提供 Aetina Server 運行AI模型的效�
 4. **Open browser and enter url** ( [`localhost:5000`](http://localhost:5000) ).
     * Triton IP must be modify to <server_ip>, you can find <server_ip> in "server_ip.txt" which will be generated when run `init.sh`
 5. **Have fun.**
+
     ![demo](figures/demo.gif)
+
 ---
 ## Reference
 
