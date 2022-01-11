@@ -100,7 +100,7 @@ else
     cp ./models/*/*.wts ./build
 
     title "Run TensorRT's Docker Container"
-    docker run --gpus all -it --rm -v $(pwd):/innotis-server nvcr.io/nvidia/tensorrt:21.03-py3 /innotis-server/init.sh build
+    docker run --gpus 1 -it --rm -v $(pwd):/innotis-server nvcr.io/nvidia/tensorrt:21.03-py3 /innotis-server/init.sh build
 
     sub_title "Store IP Information to 'server_ip.txt'"
     hostname -I | cut -d ' ' -f 1 > server_ip.txt
